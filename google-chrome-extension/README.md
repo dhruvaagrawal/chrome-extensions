@@ -1,3 +1,9 @@
+THIS CHROME EXTENSION SHOWS A TABLE AND SCRAPES AND GIVES THE USER THE OPTION TO CONVERT TO A CSV FILE.
+
+This project is in jQuery and Vanilla JS.
+
+
+
 STEPS ON HOW TO GET THE CHROME EXTENSION WORKING IN THE GOOGLE CHROME BROWSER
 
 After downloading the .zip file, move it to a location where it can be easily found and unzip it.
