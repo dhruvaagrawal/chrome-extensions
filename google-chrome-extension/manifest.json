@@ -1,0 +1,26 @@
+{
+  "name": "Table-to-CSV",
+  "version": "1.0",
+  "description": "This extension shows an HTML Table on the page, and then gives the user the option to convert it to a CSV File",
+  "manifest_version": 2,
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["main.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
+  },
+  "content_security_policy": "script-src 'self' https://*.jquery.com; object-src 'self'",
+  "permissions": [
+     "activeTab"
+  ]
+}
